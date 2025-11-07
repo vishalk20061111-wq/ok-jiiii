@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | My Semantic Web Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f2f6fa;
+    }
+
+    /* Header */
+    .header {
+      background-color: blue;
+      color: white;
+      text-align: center;
+      padding: 25px 0;
+      border-radius: 30px;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    .header p {
+      font-size: 14px;
+      margin-top: 5px;
+      color: #dfe7ff;
+    }
+
+    /* Menu Bar */
+    .menu {
+      display: flex;
+      justify-content: center;
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 10px 0;
+    }
+
+    .menu a {
+      text-decoration: none;
+      color: #333;
+      margin: 0 20px;
+      font-weight: bold;
+    }
+
+    .menu a:hover {
+      color: #b04bdb;
+    }
+
+    /* Contact Section */
+    .content {
+      width: 80%;
+      max-width: 900px;
+      margin: 40px auto;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+    }
+
+    .content h2 {
+      text-align: center;
+      color: #4b2e83;
+    }
+
+    .contact-info {
+      text-align: center;
+      color: #444;
+      line-height: 1.6;
+    }
+
+    /* Contact Form */
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    label {
+      font-weight: bold;
+      color: #333;
+    }
+
+    input, textarea {
+      padding: 10px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 15px;
+      width: 100%;
+    }
+
+    textarea {
+      resize: vertical;
+      height: 120px;
+    }
+
+    button {
+      background-color: #8b4edb;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #a36cf2;
+    }
+
+    /* Footer */
+    .bottom {
+      text-align: center;
+      background-color: black;
+      color: white;
+      padding: 10px 0;
+      font-size: 14px;
+      margin-top: 30px;
+      border-radius: 10px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Contact Us</h1>
+    <p>We’d love to hear from you!</p>
+  </div>
+
+  <div class="menu">
+    <a href="./index.html">Home</a>
+    <a href="./about.html">About</a>
+    <a href="./service.html">Services</a>
+    <a href="./contact.html">Contact</a>
+  </div>
+
+  <div class="content">
+    <h2>Get in Touch</h2>
+    <p class="contact-info">
+      Have a question, suggestion, or feedback? Fill out the form below or reach out using our contact details.<br>
+      <strong>Email:</strong> contact@mywebsite.com<br>
+      <strong>Phone:</strong> +91 9876543210<br>
+      <strong>Address:</strong> 123, MG Road, New Delhi, India
+    </p>
+
+    <form action="#" method="post">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+  <div class="bottom">
+    © 2025 My Website | All Rights Reserved
+  </div>
+
+</body>
+</html>

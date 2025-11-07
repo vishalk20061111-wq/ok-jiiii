@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Semantic Web Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f2f6fa;
+    }
+
+    .header {
+      background-color: blue;
+      color: white;
+      text-align: center;
+      padding: 25px 0;
+      border-radius: 30px;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    .header p {
+      font-size: 14px;
+      margin-top: 5px;
+      color: #dfe7ff;
+    }
+
+    .menu {
+      display: flex;
+      justify-content: center;
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 10px 0;
+    }
+
+    .menu a {
+      text-decoration: none;
+      color: #333;
+      margin: 0 20px;
+      font-weight: bold;
+    }
+
+    .menu a:hover {
+      color: #3578e5;
+    }
+
+    .content {
+      width: 80%;
+      max-width: 950px;
+      margin: 40px auto;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .service-box {
+      display: flex;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .service-box img {
+      width: 180px;
+      height: 150px;
+      object-fit: cover;
+    }
+
+    .text-area {
+      padding: 20px;
+      flex: 1;
+    }
+
+    .text-area h2 {
+      margin-top: 0;
+      color: #222;
+    }
+
+    .text-area p {
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .bottom {
+      text-align: center;
+      background-color: #0b0b0b;
+      color: white;
+      padding: 10px 0;
+      font-size: 14px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>My Semantic Web Page</h1>
+  </div>
+
+  <div class="menu">
+    <a href="./index.html">Home</a>
+    <a href="./about.html">About</a>
+    <a href="./service.html">Services</a>
+    <a href="./contact.html">Contact</a>
+  </div>
+
+  <div class="content">
+
+    <div class="service-box">
+      <img src="a.png" alt="Software development">
+      <div class="text-area">
+        <h2>Software development</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempore non hic commodi,
+          nesciendis, delectus odio reprehenderit distinctio veritatis quam cupiditate, ducimus ipsum eos
+          animi qui cumque atque. Tempora, quaerat?</p>
+      </div>
+    </div>
+
+    <div class="service-box">
+      <img src="b.jpg" alt="AI/ML">
+      <div class="text-area">
+        <h2>AI/ML</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempore non hic commodi,
+          nesciendis, delectus odio reprehenderit distinctio veritatis quam cupiditate, ducimus ipsum eos
+          animi qui cumque atque. Tempora, quaerat?</p>
+      </div>
+    </div>
+
+    <div class="service-box">
+      <img src="c.png" alt="Data analysis">
+      <div class="text-area">
+        <h2>Data analyses</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempore non hic commodi,
+          nesciendis, delectus odio reprehenderit distinctio veritatis quam cupiditate, ducimus ipsum eos
+          animi qui cumque atque. Tempora, quaerat?</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="bottom">
+    © 2025 My Website | All Rights Reserved
+  </div>
+
+</body>
+</html>
